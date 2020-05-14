@@ -1,0 +1,23 @@
+h1{
+    color: whitesmoke;
+    font-size: medium;
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    
+    font-variant: normal;
+    background-color: #333333;
+    animation-timing-function: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h2{
+    font-family: cursive;
+}
+.lorem{
+    margin: 4em;
+    background-color: grey;
+    width: 960px;
+    text-align: center;
+}
