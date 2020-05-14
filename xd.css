@@ -1,15 +1,29 @@
 h1{
-    color: whitesmoke;
-    font-size: medium;
+    font-weight: 900 bold;
+    text-align: center;
+    color: white;
+    font-size: 22px;
     font-style: inherit;
     font-family: 'Times New Roman', Times, serif;
 }
-.head{
-    text-align: center;
-    background-color: ivory;
-    color: black;
-    border: 5px black solid;
+
+a{
+    text-decoration: none;
+    color: turquoise;
+    
 }
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: ivory;
+}
+a:visited{
+    color: mediumaquamarine;
+}
+
 
 body{
     
@@ -46,6 +60,7 @@ hr{
     padding-bottom: 19px; 
     padding-top: 10px;/* or padding: 19px for all 4 directions*/
     margin-top: 20px;
+    border-radius: 15px;
     /* margin : 20px 0 //to apply only for top and bottom */
     
 }
@@ -55,8 +70,65 @@ footer{
 }
 .lorem h1{
     text-align: center;
+    
     font-family: fantasy;
     font-weight: 900;
     font-style: italic;
     text-decoration: underline ;
+}
+
+.list{
+    padding: 0;
+    border: 5px dotted white ;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 10px;
+        
+}
+
+.list h2{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.list ul{
+    list-style: none;
+}
+.list li{
+    border-top:dotted thin white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: dotted 1px white;
+    text-align: justify;
+    
+}
+
+.my-form{
+    padding: 20px;
+    padding-left: 100px;
+    border: dotted 1px whitesmoke;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width: 80%;
+    align-content: center;
+}
+
+.button{
+    background-color: grey;
+    padding: 10px 10px;
+    border: none;
 }
