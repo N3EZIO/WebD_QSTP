@@ -49,6 +49,9 @@ hr{
     margin: auto;
     
 }
+.clr{
+    clear: both;
+}
 
 .lorem{
     
@@ -65,8 +68,12 @@ hr{
     
 }
 footer{
+    /*padding: 50px;*/
+
     padding-bottom: 50px;
+    padding-top: 50px;
     text-align: center;
+    padding-top: 100px;
 }
 .lorem h1{
     text-align: center;
@@ -131,4 +138,26 @@ footer{
     background-color: grey;
     padding: 10px 10px;
     border: none;
+}
+
+.button:hover{
+    background-color: white;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid ivory;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 60%;
+    box-sizing: content-box;
+    padding-bottom: 100px;
+}
+#sidebar{
+    float: right;
+    width: 30%;
 }
