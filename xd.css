@@ -73,7 +73,6 @@ footer{
     padding-bottom: 50px;
     padding-top: 50px;
     text-align: center;
-    padding-top: 100px;
 }
 .lorem h1{
     text-align: center;
@@ -158,6 +157,50 @@ footer{
     padding-bottom: 100px;
 }
 #sidebar{
+    border: ivory solid ;
     float: right;
-    width: 30%;
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    margin-left: 350px;
+    width: 800px;
+    min-height: 500px;
+    border: 1px solid whitesmoke;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('for_css_2.jpg');
+    background-position: center center;
+}
+
+.p-box h2{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+
+}
+
+.p-box h3{
+    position: absolute;
+    top: 200px;
+    left: 340px;
+}
+
+.fix{
+    position: fixed;
+    top: 400px;
+}
+.my-list{
+    position: absolute;
+    top: 501px;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+@media(max-width:600px){
+    
 }
