@@ -1,3 +1,4 @@
 *.txt
 *.exe
 geckodriver.log
+api.http
