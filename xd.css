@@ -62,8 +62,7 @@ hr {
 }
 footer {
 	/*padding: 50px;*/
-
-	padding-bottom: 50px;
+	margin-top: 300px;
 	padding-top: 50px;
 	text-align: center;
 }
@@ -184,15 +183,14 @@ footer {
 	top: 400px;
 }
 .my-list {
-	position: absolute;
-	top: 501px;
+	top: 50px;
 	margin-bottom: 30 px;
 }
-
+/*
 .my-list li:first-child {
 	background: red;
 }
-
+*/
 @media (max-width: 600px) {
 }
 
@@ -203,7 +201,7 @@ footer {
 
 .yeezus iframe {
 	position: absolute;
-
-	padding-left: 35%;
+	padding-bottom: 100px;
 	align-items: center;
+	left: 40%;
 }
